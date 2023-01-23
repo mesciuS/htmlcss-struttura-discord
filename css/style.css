@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.disc-sction {
+    background-color: white;
+    max-height: 20%;
+    /* test */
+}
+
+.top-section {
+    background-color: #2f62e7; 
+    /* questa è la background image */
+    /* test */
+}
+
+.top-container-centered {
+
+    max-width: 1200px;
+    width: 100%;
+    height: 100px;
+    
+    /* test */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.logo {
+
+    background-color: red;
+    width: 120px;
+    height: 100px;
+    /* test */
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+li {
+    width: 80px;
+    height: 50px;
+    background-color: black;
+    /* test */
+
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+
+    background-color: red;
+    width: 120px;
+    height: 100px;
+    /* test */
+}
+
+.jumbo {
+    max-width: 1200px;
+    width: 100%;
+    height: 400px;
+    
+    /* test */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jh1 {
+    width: 600px;
+    height: 30px;
+    background-color: black;
+    /* test */
+}
+
+.jp {
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+    /* test */
+
+    max-width: 600px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    /* test */
+
+    
+}
