@@ -4,6 +4,126 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+.container-centered {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* navbar */
+nav {
+    background-color: #255ee9;
+    color: white;
+}
+
+.nav-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+
+.link {
+    display: flex;
+    align-items: stretch;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 1em;
+    border-radius: 50px;
+    border-color: transparent;
+}
+
+.btn-login {
+    background-color: white;
+    color: black;
+}
+
+/*navbar */
+
+/* header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: bottom;
+
+    color: white;
+
+}
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 400px;
+    max-width: 600px;
+
+    padding: 40px 0;
+
+    text-align: center;
+
+    gap: 1em;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+.btn-uno {
+    background-color: white;
+    color: black;
+}
+
+.btn-due {
+    background-color: black;
+    color: white;
+}
+/* header */
+
+
+/* fin qui tutto corretto */
+
 .disc-section {
     display: flex;
     flex-direction: column;
@@ -17,104 +137,9 @@
     /* test */
 }
 
-.top-container-centered {
 
-    max-width: 1200px;
-    width: 100%;
-    height: 100px;
-    
-    /* test */
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.logo {
-
-    background-color: red;
-    width: 120px;
-    height: 100px;
-    /* test */
-}
-
-.link {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-ul {
-    list-style-type: none;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-}
-
-li {
-    width: 80px;
-    height: 50px;
-    background-color: black;
-    /* test */
-
-    display: flex;
-    flex-direction: row;
-}
-
-.login {
-
-    background-color: red;
-    width: 120px;
-    height: 100px;
-    /* test */
-}
-
-.jumbo {
-    max-width: 1200px;
-    width: 100%;
-    height: 400px;
-    
-    /* test */
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.jh1 {
-    width: 600px;
-    height: 30px;
-    background-color: black;
-    /* test */
-}
-
-.jp {
-    width: 600px;
-    height: 100px;
-    text-align: center;
-    background-color: red;
-    /* test */
-
-    max-width: 600px;
-}
-
-.button {
-    width: 200px;
-    height: 50px;
-    background-color: purple
-    /* test */
-}
 
 main {
     max-width: 1200px;
